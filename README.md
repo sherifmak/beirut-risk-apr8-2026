@@ -131,6 +131,12 @@ beirut-risk-apr8-2026/
 ├── risk_estimate.html      # static export (no Python needed)
 ├── README.md               # this file
 ├── BLOG_POST.md            # the accompanying writeup
+├── assets/                 # charts, pull quotes, TL;DRs for the blog post
+│   ├── generate_assets.py  # run to regenerate all charts
+│   ├── charts/             # PNG charts + social media cards
+│   ├── pull_quotes.md      # shareable quotes
+│   ├── tldr.md             # one-sentence / one-paragraph summaries
+│   └── README.md           # index of assets
 ├── requirements.txt
 ├── LICENSE                 # MIT
 └── .gitignore
