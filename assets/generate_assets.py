@@ -1,4 +1,4 @@
-"""Generate visual assets for the blog post.
+"""Generate visual assets for the project.
 
 Run from the project root with the venv activated:
     python assets/generate_assets.py
@@ -215,7 +215,7 @@ ax.text(0.5, 0.8,
         "Numerical comparison, not a moral one. Citywide average — hides block-level variance.",
         fontsize=9, color="#888", style="italic", va="center")
 ax.text(0.5, 0.25,
-        "sheriff.substack.com   ·   github.com/sherifmak/beirut-risk-apr8-2026",
+        "github.com/sherifmak/beirut-risk-apr8-2026   ·   github.com/sherifmak/beirut-risk-apr8-2026",
         fontsize=8, color="#888", va="center")
 
 fig.savefig(OUT / "social_card_twitter.png", dpi=150, bbox_inches="tight", facecolor="white")
@@ -252,7 +252,7 @@ ax.text(5, 1.6, "Per-capita daily risk · same denominator",
         fontsize=10, color="#444", style="italic", va="center", ha="center")
 ax.text(5, 1.0, "Numerical comparison, not moral",
         fontsize=9, color="#888", style="italic", va="center", ha="center")
-ax.text(5, 0.4, "sheriff.substack.com",
+ax.text(5, 0.4, "github.com/sherifmak/beirut-risk-apr8-2026",
         fontsize=9, color="#888", va="center", ha="center")
 
 fig.savefig(OUT / "social_card_instagram.png", dpi=120, bbox_inches="tight", facecolor="white")

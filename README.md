@@ -153,7 +153,7 @@ beirut-risk-apr8-2026/
 ├── risk_estimate.ipynb     # the analysis
 ├── risk_estimate.html      # static export
 ├── README.md               # this file
-├── BLOG_POST.md            # the accompanying writeup
+├── FINDINGS.md             # plain-language summary of findings
 ├── assets/                 # charts, pull quotes, TL;DRs
 │   ├── generate_assets.py  # run to regenerate all charts
 │   ├── charts/             # PNG charts + social media cards
@@ -216,7 +216,7 @@ were in Lower Manhattan (~1.5 km²).**
 Because city-proper-to-city-proper is the consistent denominator choice
 available without pinning Lower Manhattan / the 5-neighborhood Beirut
 strike zone against each other (both of which would push both numbers
-upward by similar factors). The blog post leads with the
+upward by similar factors). The findings summary leads with the
 **metro-vs-metro** comparison precisely because it's the safest consistent
 pairing; the city-proper number is shown as a secondary, more aggressive
 comparison. If you spread both events to the actually-affected footprint,
@@ -281,10 +281,10 @@ No. The code is open, the assumptions are explicit, the uncertainty is
 quantified, and the caveats lead. If you disagree with any input, clone
 the repo and change it.
 
-## The accompanying essay
+## Plain-language summary
 
-See [BLOG_POST.md](BLOG_POST.md) or the published version at
-[sheriff.substack.com](https://sheriff.substack.com).
+See [FINDINGS.md](FINDINGS.md) for a one-page summary of the results,
+methodology, and comparisons — written for a general audience.
 
 ## License
 
