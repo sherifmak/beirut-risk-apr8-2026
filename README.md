@@ -49,7 +49,7 @@ Public Health (Apr 9) and Civil Defense (Apr 8, preliminary).
 
 | Area | Median µM | 90% CI | 1 in X (median) | vs normal day |
 |---|---:|---:|---:|---:|
-| **Greater Beirut metro** (2.2M) | **~80** | **[71, 95]** | ~1 in 12,500 | ~3× |
+| **Greater Beirut metro** (2.2M) | **~80** | **[69, 97]** | ~1 in 12,500 | ~3× |
 | Beirut governorate (city proper, 361k–433k) | ~266 | [228, 327] | ~1 in 3,800 | ~11× |
 | Dahiyeh (southern suburbs, 333k–400k) | ~191 | [163, 235] | ~1 in 5,200 | ~8× |
 

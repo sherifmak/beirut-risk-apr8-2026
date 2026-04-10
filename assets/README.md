@@ -30,7 +30,7 @@ and the OG/Twitter preview.
 **In-post charts** (embedded where each section discusses them):
 - `event_comparison_log.png` — embed right after the "How to feel that number"
   section
-- `beirut_vs_911.png` — embed right after the central 302-vs-372 claim
+- `beirut_vs_911.png` — embed right after the central 80-vs-145 / 266-vs-344 comparison
 - `beirut_by_scope.png` — embed next to the Beirut scope table
 - `comparison_sheet.png` — optional "at a glance" summary image to put near
   the end or the top

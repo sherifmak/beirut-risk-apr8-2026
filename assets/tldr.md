@@ -20,7 +20,7 @@ subject clause** because it's load-bearing.
 > warning, 300+ killed, ~1,150 wounded. I wanted a number I could reason
 > about, not a headline I could only feel. Computing the per-capita daily
 > risk of death in micromorts gives **~80 µM** for the average Greater
-> Beirut resident (90% credible interval [71, 95]) — about **55% of what
+> Beirut resident (90% credible interval [69, 97]) — about **55% of what
 > the average New Yorker faced on 9/11** on a consistent metro-area
 > basis. At the city-proper level the comparison tightens to ~77% of
 > 9/11. The full four-estimator analysis, with Monte Carlo uncertainty
@@ -52,7 +52,7 @@ subject clause** because it's load-bearing.
 > uncertainty propagation (N=200k). Data from the Lebanese Ministry of
 > Public Health (authoritative nationwide total, Apr 9 preliminary)
 > decomposed by Civil Defense district shares. Central estimate for
-> Greater Beirut metro: 80 µM (90% CI [71, 95]) — approximately 55% of
+> Greater Beirut metro: 80 µM (90% CI [69, 97]) — approximately 55% of
 > NYC 9/11 metro-basis figure (~145 µM, from 2,753 NYC-specific victims
 > ÷ 19M NYC metro population). City-proper basis: 266 µM (90% CI
 > [228, 327]), ~77% of NYC 9/11 city basis. The comparison is robust to

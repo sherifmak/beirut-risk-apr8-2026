@@ -95,7 +95,7 @@ will strip any phrasing that relies on a trailing modifier.
 > death for an average Beirut resident during the Israeli strikes of
 > April 8, 2026. A Monte Carlo over the scaling assumption, population
 > denominator, and preliminary-data revision yields a 90% credible
-> interval of [71, 95] µM for a metro resident — about 55% of the average
+> interval of [69, 97] µM for a metro resident — about 55% of the average
 > New Yorker's risk on 9/11, on the same metro denominator. The
 > methodology survives hostile scrutiny on both denominator choices. I
 > wrote up the reasoning here:

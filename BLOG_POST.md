@@ -96,7 +96,7 @@ You can clone it and change any assumption.
 
 | Area | Median µM | 90% CI | ≈ 1 in X | vs normal day |
 |---|---:|---:|---:|---:|
-| **Greater Beirut metro (2.2M)** | **~80** | **[71, 95]** | **~1 in 12,500** | **~3.2×** |
+| **Greater Beirut metro (2.2M)** | **~80** | **[69, 97]** | **~1 in 12,500** | **~3.2×** |
 | Dahiyeh (southern suburbs) | ~191 | [163, 235] | ~1 in 5,200 | ~7.6× |
 | Beirut governorate (city proper) | ~266 | [228, 327] | ~1 in 3,800 | ~10.6× |
 

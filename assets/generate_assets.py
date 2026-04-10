@@ -33,7 +33,7 @@ BEIRUT_RED = "#8b0000"
 #   Port explosion:     ~220 killed (midpoint of 218–235 disputed range)
 #
 # Beirut Apr 8 2026 figures are Monte Carlo medians from the notebook:
-#   Greater Beirut metro: ~80 µM (90% CI [71, 95])
+#   Greater Beirut metro: ~80 µM (90% CI [69, 97])
 #   Dahiyeh:              ~191 µM (90% CI [163, 235])
 #   Beirut governorate:   ~266 µM (90% CI [228, 327])
 
@@ -91,12 +91,11 @@ categories_m = [
     "NYC metro\n9/11 (Sept 11, 2001)",
 ]
 values_m = [80, 145]
-errs_m = [[80-71, 0], [95-80, 0]]  # lower, upper for Beirut only
 colors_m = [BEIRUT_RED, "#555"]
 
 bars_m = ax_left.bar(categories_m, values_m, color=colors_m, width=0.5, alpha=0.92)
-# Add error bar for Beirut (90% CI)
-ax_left.errorbar(0, 80, yerr=[[9], [15]], color="#333", capsize=8, lw=1.5)
+# Add error bar for Beirut (90% CI [69, 97])
+ax_left.errorbar(0, 80, yerr=[[80-69], [97-80]], color="#333", capsize=8, lw=1.5)
 ax_left.set_ylabel("Micromorts  (1 in 1,000,000)")
 ax_left.set_title("Metro-vs-metro basis\n(consistent denominator)", fontsize=12, pad=14)
 ax_left.grid(axis="y", linestyle=":", alpha=0.4)
@@ -146,8 +145,8 @@ scopes = [
     "Beirut governorate\n(city proper, 361k–433k)",
 ]
 values_b = [80, 191, 266]
-lowers_b = [80-71, 191-163, 266-228]
-uppers_b = [95-80, 235-191, 327-266]
+lowers_b = [80-69, 191-163, 266-228]
+uppers_b = [97-80, 235-191, 327-266]
 colors_b = ["#d35a5a", "#a82828", BEIRUT_RED]
 
 fig, ax = plt.subplots(figsize=(10, 6), dpi=150)
